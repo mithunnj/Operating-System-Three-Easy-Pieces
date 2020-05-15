@@ -20,4 +20,5 @@ These include files on my summer 2020 goal of mastering my C programming skills 
     - malloc: Stands for memory allocation, and it takes one argument which is the size of the variable type.
     - calloc: Stands for contiguous memory allocation, and it takes two arguments, one is the number of elements of that variable type, and the variable type. Compared to malloc, calloc will initialize this block of memory to zero first.
 - Strings in C: Strings are considered an array of characters, which means that the characters are stored in memory contiguously. So we can refer to the string with a character pointer. Strings always contain a final nul character, to represent that the string has ended.
-
+- volatile: This keyword will tell the compiler to ignore that variable from optimizations. For example, a possible optimization we might want to avoid the compiler storing the value of the variable and reusing that value throughout the program, but in reality the value of that variable might change (read up more on what I mean here: https://www.geeksforgeeks.org/understanding-volatile-qualifier-in-c/)
+- Thread: A function running within the same memory space as other functions, with more than one active at a time.
