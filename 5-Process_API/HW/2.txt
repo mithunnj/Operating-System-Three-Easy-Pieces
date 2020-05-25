@@ -1,0 +1,2 @@
+This is the child process writing: 50187. 
+This is the parent process writing: 50186. 
