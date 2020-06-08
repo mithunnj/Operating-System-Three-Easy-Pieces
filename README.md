@@ -49,4 +49,8 @@ These include files on my summer 2020 goal of mastering my C programming skills 
     - Timer interrupts: When the OS gives control of the CPU to a process, this timeout will ensure that the OS doesn’t permanently lose control due to a rebel process.
         - Interesting that the OS actually gives away it’s control to the CPU (for a single processor architecture).
     - Context switch: Switching processes.
+    - Address space (virtual address space): The running program’s view of memory in the system.
+        - Any address you can see as a programmer, for a user-level process will always be a virtual address.
+    - The principle of isolation: Isolation is a key principle in building reliable systems. If two entities are properly isolated from one another, this implies that one can fail without affecting the other. Some modern OS’s take isolation even further, by walling off pieces of the OS from other pieces of the OS - microkernel architecture. Microkernels provide greater reliability than typical monolithic kernel designs.
+
 
